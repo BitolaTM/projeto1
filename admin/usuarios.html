@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Usuários</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../estilo.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <script src="https://cdn.ckeditor.com/4.9.1/standard/ckeditor.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Qi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usuarios.html">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <h2>Cadastrar Usuários</h2>
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                <form>
+                    <div class="formularioa">
+                    <h2>Cadastrar Usuários</h2>
+                    Usuário:<input type="text" name="nome">
+                    E-mail:<input type="email" name="email">
+                    Senha:<input type="password" name="senha">
+                    Nível:<select>
+                            <option>Escolher...</option>
+                            <option>Admin</option>
+                            <option>Padrão</option>
+                        </select>
+                    Foto:<input type="file" name="data">
+                    <script>
+			CKEDITOR.replace( 'mensagem' );
+		    </script>
+                    <input type="submit" value="Cadastrar">
+                    <br/>
+                    <br/>
+                    </div>
+                </form>
+            </div>
+            <div id="rodape">
+            <p>Thomas M. Masiero</p>
+        </div>
+        </header>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>    
+    </body>
+</html>
